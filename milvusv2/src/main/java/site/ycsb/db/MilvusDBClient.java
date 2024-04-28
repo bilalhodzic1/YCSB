@@ -1,8 +1,5 @@
 package site.ycsb.db;
 
-import io.milvus.client.MilvusClient;
-import site.ycsb.*;
-
 
 import io.milvus.client.MilvusServiceClient;
 import io.milvus.param.ConnectParam;
@@ -10,11 +7,9 @@ import io.milvus.param.ConnectParam;
 
 import com.google.common.collect.Lists;
 import io.milvus.client.MilvusClient;
-import io.milvus.client.MilvusServiceClient;
 import io.milvus.grpc.DescribeCollectionResponse;
 import io.milvus.grpc.MutationResult;
 import io.milvus.grpc.ShowCollectionsResponse;
-import io.milvus.param.ConnectParam;
 import io.milvus.param.*;
 
 import java.util.*;
@@ -38,6 +33,7 @@ import io.milvus.response.DescCollResponseWrapper;
 import io.milvus.response.QueryResultsWrapper;
 import io.milvus.response.FieldDataWrapper;
 import io.milvus.grpc.QueryResults;
+import site.ycsb.*;
 
 import static io.milvus.grpc.MsgType.Upsert;
 

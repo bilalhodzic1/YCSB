@@ -35,6 +35,7 @@ LICENSE file.
 
   <modules>
     <module>datastore-specific-descriptor</module>
+    <module>../milvusv2</module>
   </modules>
 
   <properties>
