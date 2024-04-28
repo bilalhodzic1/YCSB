@@ -187,7 +187,6 @@ LICENSE file.
     <module>maprdb</module>
     <module>maprjsondb</module>
     <module>memcached</module>
-    <module>milvus</module>
     <module>milvusv2</module>
     <module>mongodb</module>
     <module>nosqldb</module>
